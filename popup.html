@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI全家桶</title>
+    <link href="styles/popup.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <h1>AI全家桶</h1>
+                <button id="settingsBtn" class="settings-btn">⚙️</button>
+            </div>
+            
+            <div class="categories">
+                <h2>🗂️ 工具分类</h2>
+                
+                <button class="category-btn" data-category="favorites">
+                    <span class="icon">📌</span>
+                    <span class="text">收藏夹</span>
+                </button>
+
+                <button class="category-btn active" data-category="all">
+                    <span class="icon">🌟</span>
+                    <span class="text">全部工具</span>
+                </button>
+
+                <button class="category-btn" data-category="general">
+                    <span class="icon">🤖</span>
+                    <span class="text">大语言模型</span>
+                </button>
+                <button class="category-btn" data-category="image">
+                    <span class="icon">🎨</span>
+                    <span class="text">图像生成</span>
+                </button>
+                <button class="category-btn" data-category="video">
+                    <span class="icon">🎬</span>
+                    <span class="text">视频创作</span>
+                </button>
+                <button class="category-btn" data-category="code">
+                    <span class="icon">💻</span>
+                    <span class="text">编程开发</span>
+                </button>
+                <button class="category-btn" data-category="office">
+                    <span class="icon">📊</span>
+                    <span class="text">办公效率</span>
+                </button>
+                <button class="category-btn" data-category="audio">
+                    <span class="icon">🎵</span>
+                    <span class="text">音频处理</span>
+                </button>
+                <button class="category-btn" data-category="search">
+                    <span class="icon">🔍</span>
+                    <span class="text">搜索翻译</span>
+                </button>
+                <button class="category-btn" data-category="creative">
+                    <span class="icon">✨</span>
+                    <span class="text">创意社交</span>
+                </button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <div class="main-header">
+                <div class="search-bar">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchInput" placeholder="搜索AI工具...">
+                </div>
+            </div>
+
+            <div class="content-scroll">
+                <div class="tools-container" id="toolsContainer">
+                    <!-- 工具列表将通过JavaScript动态生成 -->
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/popup.js" type="module"></script>
+</body>
+</html> 

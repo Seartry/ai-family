@@ -1,0 +1,72 @@
+<!doctype html><html translate="no"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,width=device-width,viewport-fit=cover"><meta http-equiv="Content-Security-Policy" content="default-src 'self' blob: data: https://vm.gtimg.cn https://*.map.gtimg.com https://*.tencentcos.cn https://hunyuan-bot-qa-1258344703.cos.ap-guangzhou.myqcloud.com https://hunyuan-bot-prod-1258344703.cos.ap-guangzhou.myqcloud.com https://hunyuan-test-1258344703.cos.ap-guangzhou.myqcloud.com https://hunyuan-prod-125834470.cos.ap-guangzhou.myqcloud.com https://hunyuan-prod-1258344703.cos.ap-guangzhou.myqcloud.com https://cdn.jsdelivr.net https://*.tencent.com https://*.qq.com https://*.hunyuan.woa.com https://captcha.gtimg.com http://127.0.0.1:* http://localhost:* https://captcha.gtimg.com https://t.captcha.qq.com 'unsafe-inline' 'unsafe-eval' data:; img-src https://* http://* 'self' data: blob: http://127.0.0.1:* http://localhost:*; connect-src 'self' https://hunyuan-hybrid-prod-1258344703.cos.ap-guangzhou.myqcloud.com https://hunyuan-prod-1258344703.cos.accelerate.myqcloud.com https://hunyuan-test-1258344703.cos.accelerate.myqcloud.com https://*.qq.com https://mapstyle.qpic.cn https://*.map.gtimg.com https://43.140.59.57 https://app-pre.tchy.net https://hunyuan.tencent.com https://yuanbao.test.hunyuan.woa.com:8080 ws://43.140.59.57:8008 https://yuanqi.tencent.com ws: https://hunyuan-bot-qa-1258344703.cos.ap-guangzhou.myqcloud.com https://hunyuan-bot-prod-1258344703.cos.ap-guangzhou.myqcloud.com https://hunyuan-test-1258344703.cos.ap-guangzhou.myqcloud.com https://hunyuan-prod-125834470.cos.ap-guangzhou.myqcloud.com https://hunyuan-prod-1258344703.cos.ap-guangzhou.myqcloud.com https://cdn-bot.hunyuan.tencent.com https://aegis.qq.com https://v.qq.com https://api.fy.qq.com http://127.0.0.1:* http://localhost:* https://*.hunyuan.woa.com https://*.hunyuan.tencent.com https://open.test.hunyuna.woa.com https://open.test2.hunyuan.woa.com https://*.aida.qq.com https://xj-psd-1258344703.cos.ap-guangzhou.myqcloud.com https://code-interpreter-1258344706.cos.ap-guangzhou.myqcloud.com https://hy-app-translate-1258344703.cos.ap-guangzhou.myqcloud.com https://asr.cloud.tencent.com https://*.tencent.com https://hunyuan-plugin-gz-1258344706.cos.ap-guangzhou.myqcloud.com https://hunyuan-plugin-nj-1258344706.cos.ap-nanjing.myqcloud.com https://hunyuan-plugin-1258344706.cos.ap-nanjing.myqcloud.com hunyuan-base-test-1258344703.cos.ap-guangzhou.myqcloud.com hunyuan-base-prod-1258344703.cos.ap-guangzhou.myqcloud.com https://*.tencentcos.cn cdn-test.yuanqi.tencent.com cdn.yuanqi.tencent.com pcg-pdf-1258344706.cos.ap-nanjing.myqcloud.com wvjbscheme://* https://servicewechat.com blob:; child-src blob:; worker-src 'self' blob:; frame-src *.woa.com *.tencent.com https://*.qq.com webcompt: hunyuan-test-1258344703.cos.ap-guangzhou.myqcloud.com view.officeapps.live.com hunyuan-prod-1258344703.cos.ap-guangzhou.myqcloud.com wvjbscheme://* zhuanhuabao-5gqf84946751a1cb-1300912497.tcloudbaseapp.com https://*; media-src 'self' blob: data: https://*;"/><title>腾讯元宝 - 轻松工作 多点生活</title><meta name="keywords" content="增强大模型,AIGC,智能客服,腾讯AIGC,腾讯元宝,腾讯元宝app,AI产品,AI工具,AI助手,AI搜索,AI解析,AI写作,AI画图,AI写真,AI头像,腾讯混元app,AI大模型,AI聊天,AI问答,AI口语,AI创作,AIGC,腾讯AIGC,腾讯混元,腾讯混元大模型,腾讯大模型"><meta name="description" content="腾讯元宝是基于腾讯混元大模型的AI应用，可以帮你写作绘画文案翻译编程搜索阅读总结的全能助手"><meta property="og:type" content="website"><meta property="og:title" content="腾讯元宝"><meta property="og:description" content="腾讯元宝是基于腾讯混元大模型的AI应用，可以帮你写作绘画文案翻译编程搜索阅读总结的全能助手"><meta property="og:image" content="https://yuanbao.tencent.com/logo.png"><meta property="og:url" content="https://yuanbao.tencent.com"><script>(function() {
+      function checkBrowserVersion() {
+        var userAgent = navigator.userAgent;
+        var temp;
+
+        // 放开百度搜索
+        if (userAgent.indexOf("Baiduspider/") > -1) {
+          return true;
+        }
+
+        // 搜狗使用的chrome内核版本为80
+        if (userAgent.indexOf("SGWebviewClient/") > -1) {
+          return true; // 放开搜狗
+        }
+
+        if (userAgent.indexOf("wxwork/") > -1) {
+          return true; // 放开企微 webview
+        }
+
+        // 检测Edge
+        var isEdge = userAgent.indexOf("Edg/") > -1;
+        if (isEdge) {
+            temp = userAgent.match(/Edg\/(\d+)/);
+            if (temp && temp.length > 1) {
+                return parseInt(temp[1], 10) >= 84;
+            }
+        }
+
+        // 检测Firefox
+        var isFirefox = userAgent.indexOf("Firefox/") > -1;
+        if (isFirefox) {
+            temp = userAgent.match(/Firefox\/(\d+)/);
+            if (temp && temp.length > 1) {
+                return parseInt(temp[1], 10) >= 83;
+            }
+        }
+
+        // 检测Chrome
+        var isChrome = userAgent.indexOf("Chrome/") > -1 && userAgent.indexOf("Edg/") === -1; // 排除Edge
+        if (isChrome) {
+            temp = userAgent.match(/Chrome\/(\d+)/);
+            if (temp && temp.length > 1) {
+                return parseInt(temp[1], 10) >= 84;
+            }
+        }
+
+        // 检测Safari
+        var isSafari = userAgent.indexOf("Safari/") > -1 && userAgent.indexOf("Chrome/") === -1; // 排除Chrome
+        if (isSafari) {
+            temp = userAgent.match(/Version\/(\d+\.\d+)/);
+            if (temp && temp.length > 1) {
+                return parseFloat(temp[1]) >= 14.1;
+            }
+        }
+
+        if (!!navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|IEMobile)/i)) {
+          // 没匹配到的移动端检测 replaceAll
+          return typeof String.prototype.replaceAll === "function";
+        } else {
+          // 没匹配到的PC端
+          return -1;
+        }
+      }
+
+      var checkBrowser = checkBrowserVersion();
+
+      if (checkBrowser === -1) {
+        window.location.replace('/browser-support.html');
+      } else if (!checkBrowser) {
+        window.location.replace('/browser-upgrade.html');
+      }
+    })();</script><link rel="icon" href="https://cdn-bot.hunyuan.tencent.com/logo.png"><script defer="defer" src="https://cdn-bot.hunyuan.tencent.com/runtime.213060f3d1cc031f856e.js"></script><script defer="defer" src="https://cdn-bot.hunyuan.tencent.com/vendor_hunyuan.2bc19c554849d85a7e1a.js"></script><script defer="defer" src="https://cdn-bot.hunyuan.tencent.com/vendor_tencent.10cd5a4881c4be91fdc0.js"></script><script defer="defer" src="https://cdn-bot.hunyuan.tencent.com/vendor_react.944e3dee8e92ec296e55.js"></script><script defer="defer" src="https://cdn-bot.hunyuan.tencent.com/vendor_tdesign.71814fe780267e12b7cc.js"></script><script defer="defer" src="https://cdn-bot.hunyuan.tencent.com/vendor_tdesign_icons.6345c92cb38b2e1e42bd.js"></script><script defer="defer" src="https://cdn-bot.hunyuan.tencent.com/696.7c3a870dbda93ab5665f.js"></script><script defer="defer" src="https://cdn-bot.hunyuan.tencent.com/149.a9465d95c4dba800bd55.js"></script><script defer="defer" src="https://cdn-bot.hunyuan.tencent.com/vendor_cos_sdk.8f93f22bc5b0ea7bc325.js"></script><script defer="defer" src="https://cdn-bot.hunyuan.tencent.com/vendor.c2203256ff092b9fb7b3.js"></script><script defer="defer" src="https://cdn-bot.hunyuan.tencent.com/3958.4851c4d7372960929f1e.js"></script><script defer="defer" src="https://cdn-bot.hunyuan.tencent.com/index.32e774bf9c4ab0b6a746.js"></script><link href="https://cdn-bot.hunyuan.tencent.com/vendor_hunyuan_style.7681025f474517bca285.css" rel="stylesheet"><link href="https://cdn-bot.hunyuan.tencent.com/vendor_tdesign.7681025f474517bca285.css" rel="stylesheet"><link href="https://cdn-bot.hunyuan.tencent.com/index.7681025f474517bca285.css" rel="stylesheet"></head><body><div id="app"></div><script defer="defer" src="https://captcha.gtimg.com/TCaptcha.js"></script></body></html>

@@ -1,0 +1,16 @@
+{
+  "name": "ai-toolbox",
+  "version": "1.0.0",
+  "description": "快速访问和切换各种常用的AI工具的Chrome扩展",
+  "scripts": {
+    "download-icons": "node scripts/download-tool-icons.js",
+    "create-placeholder": "node scripts/create-placeholder-icon.js",
+    "generate-icons": "node scripts/generate-icons.js",
+    "build": "npm run create-placeholder && npm run download-icons && npm run generate-icons"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "sharp": "^0.32.1"
+  }
+} 

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html data-theme="light">
+
+<head>
+    <meta charSet="utf-8" />
+    <meta property="og:title" content="通义tongyi.ai_你的全能AI助手-通义千问">
+    <meta property="og:description" content="通义是一个通情、达义的国产AI模型，可以帮你解答问题、文档阅读、联网搜索并写作总结，最多支持1000万字的文档速读。通义tongyi.ai_你的全能AI助手">
+    <meta property="og:image"
+        content="https://img.alicdn.com/imgextra/i2/O1CN01Qta2HJ20Hu4u7BbWM_!!6000000006825-2-tps-1024-1024.png">
+    <meta name="description" content="通义是一个通情、达义的国产AI模型，可以帮你解答问题、文档阅读、联网搜索并写作总结，最多支持1000万字的文档速读。通义tongyi.ai_你的全能AI助手">
+    <meta name="keywords" content="通义,通义千问,tongyi.ai,AI PPT,AI搜索,AI写作,大语言模型">
+    <meta name="aplus-rhost-v" content="v.aplus.aliyun.com">
+    <meta name="aplus-rhost-g" content="g.aplus.aliyun.com">
+    <meta name="onepub-render" />
+    <link rel="canonical" href="https://tongyi.aliyun.com/" />
+
+    <link rel="preload" href="//at.alicdn.com/wf/webfont/c8Rw3f0HBOjE/dRhOcc1ogpnU.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://g.alicdn.com/code/lib/KaTeX/0.13.11/katex.css" />
+
+    <link rel="shortcut icon"
+        href="https://img.alicdn.com/imgextra/i1/O1CN01AKUdEM1qP6BQVaYhT_!!6000000005487-2-tps-512-512.png">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta name="ice-meta-count" content="0" />
+    <title>通义tongyi.ai_你的全能AI助手-通义千问</title>
+    <meta name="aplus-core" content="aplus.js">
+    <meta name="aplus-waiting" content="MAN">
+    <meta name="data-spm" content="5176" />
+    <meta name="google-site-verification" content="QPG97RgMVxnzyF0b3ZDpfo0T4wDGeuuFflk5pb2RVLg" />
+    <script nonce="">
+        // 全局vm数据
+        var csrfToken = "ab5d2d0b-2629-4980-aee4-ad6e32bb92df";
+        var errorCode = "";
+        var errorMsg = [""];
+        var statusCode = "0";
+        var empId = "";
+        var applyWaitCount = "";
+        var warnSessionContextCount = "60";
+        var authCodes = ["share_ability"];
+        var certificationStatus = "";
+        var accountType = "";
+        var phoneNumber = "";
+        var skipUserCheck = "true";
+        var sign = "0";
+        var globalThis = window;
+    </script>
+    <script nonce="">
+        var guestChatRounds = 1;
+        var guestChatCount = 1;
+        var contactUsQrCode = "https://img.alicdn.com/imgextra/i4/O1CN01ECAmPu1xZokj2mC8a_!!6000000006458-0-tps-452-452.jpg"
+    </script>
+    <script nonce="">
+        (function(d)  {
+            var cookies=d.cookie.split(';').map(function(item){return item.trim().split('=')});
+            function getcookie(name){
+                var item=cookies.find(function(item){return item[0]==name});
+                return item?encodeURIComponent(item[1]):'';
+            }
+            var t=d.createElement("script");t.type="text/javascript";t.async=true;t.id="tb-beacon-aplus";
+            var env = /^pre-/.test(location.host)?'pre':'online'
+            t.setAttribute("exparams","category=&userid="+window.empId+"&aplus&yunid="+getcookie("login_aliyunid")+"&yunpk="+getcookie("login_tongyi_ticket")+"&channel="+getcookie("channel")+"&cps="+getcookie("cps")+"&pid=tongyiqianwen&orgid=tongyi&typarm1=web&typarm2=&typarm3="+env+"&typarm4=tongyi");
+            t.src="//g.alicdn.com/alilog/mlog/aplus_v2.js";
+            d.getElementsByTagName("head")[0].appendChild(t);
+        })(document);
+    </script>
+    <link rel="stylesheet" type="text/css"
+        href="https://g.alicdn.com/liveme-console/alice-mind-app/1.0.262/css/main.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://g.alicdn.com/liveme-console/alice-mind-app/1.0.262/css/havanaLogin.css" />
+    <script dataid="70" src="https://g.alicdn.com/AWSC/et/1.62.4/et_f.js" nonce=""></script>
+    <script dataid="70" src="https://g.alicdn.com/AWSC/Bee/index.js" nonce=""></script>
+
+    <script nonce="" src="//g.alicdn.com/aes/??tracker/3.3.9/index.js,tracker-plugin-pv/3.0.6/index.js,tracker-plugin-event/3.0.0/index.js,tracker-plugin-jserror/3.0.3/index.js,tracker-plugin-api/3.1.3/index.js,tracker-plugin-resourceError/3.0.4/index.js,tracker-plugin-perf/3.1.0/index.js,tracker-plugin-eventTiming/3.0.0/index.js,tracker-plugin-autolog/3.0.13/index.js,tracker-plugin-blank/3.0.1/index.js,tracker-plugin-longtask/3.0.1/index.js"></script>
+    <script nonce="">
+        const aes = new AES({
+            pid: "HstAjZ",
+            user_type: "6",
+            uid: "",
+            phone: "",
+            dim1: "main"
+        });
+        var AES_PLUGINS = aes.use([AESPluginPV,AESPluginResourceError,AESPluginAutolog,AESPluginEventTiming]);
+        
+        aes.use(AESPluginPerf, {
+            plugin_perf_enableUserTimingObserve: true,
+            plugin_perf_enableResourceTiming: true,
+            plugin_perf_resourceTimingThreshhold: 10000,
+            plugin_perf_resourceTimingSampling: 0.1,
+        });
+
+        aes.use(AESPluginBlank, {
+            plugin_blank_target: '#ice-container',
+            plugin_blank_when: ['error', 'leave'],
+            plugin_blank_tester: function(target) {
+                if (target) {
+                    if (target.children.length === 0) return false;
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        });
+
+        window.aesSendError = aes.use(AESPluginJSError, {
+            disable_unhandled_rejection: true,
+        }).sendError;
+        aesSendError();
+
+        window.aesSendApi = aes.use(AESPluginAPI, {
+            sendResponseOnSuccess: false,
+        }).sendApi;
+
+        window.aesSendEvent = aes.use(AESPluginEvent);
+
+        window.addEventListener('error', function(e) {
+            if (!(e instanceof ErrorEvent)) {
+                var target = e.target;
+                var src = target.src || target.href;
+                if(!src || src.indexOf('.mmstat.com') !== -1 || /aes-\d+\.cn-wulanchabu\.log\.aliyuncs\.com/.test(src)){
+                    return;
+                }
+                var a = document.createElement('a');
+                a.href = src;
+
+                try {
+                    aesSendEvent('resource_error', {
+                        et: 'OTHER',
+                        c1: a.host,
+                        c2: src,
+                    });
+                }
+                catch(e) {
+                    console.error(e);
+                }
+            }
+        }, true)
+
+        window.addEventListener('unhandledrejection', function(e) {
+            var info = e.reason;
+
+            if (info instanceof Error) {
+                aesSendError(info);
+            } else if (info) {
+                var traceId = info.traceId;
+                var errorCode = info.errorCode;
+                var data = info.data;
+                
+                delete info.traceId;
+                delete info.errorCode;
+                delete info.data;
+
+                try {
+                    info = typeof info === 'string' ? info : JSON.stringify(info);
+                } catch (e) {
+                    info = 'JSON.stringify error';
+                }
+
+                aesSendError({
+                    type: 'rejection_error',
+                    message: info,
+                });
+
+                if (traceId || errorCode || data) {
+                    aesSendEvent('rejection_error', {
+                        et: 'OTHER',
+                        c1: errorCode,
+                        c2: traceId,
+                        c3: data ? JSON.stringify(data) : '',
+                    });
+                }
+            } else {
+                aesSendError({
+                    type: 'rejection_error',
+                    message: info,
+                });
+            }
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var fontScript = document.createElement('script');
+            fontScript.src = "https://g.alicdn.com/code/npm/@ali/tongyi-icons/1.0.4/umd/tongyi-icons.min.js";
+            document.head.appendChild(fontScript);
+        }, false);
+    </script>
+    <!-- 友盟数据统计 -->
+    <script nonce="">
+        var _czc = _czc || [];
+        (function () {
+            var um = document.createElement("script");
+            um.src = "https://v1.cnzz.com/z.js?id=1281397965&async=1";
+            um.nonce = "";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(um, s);
+        })();
+    </script>
+</head>
+
+<body data-spm="28103460">
+    <div id="ice-container"></div>
+
+    <script nonce="">
+        window.FastLoginContext = {
+        tenantName: 'bazinga',
+        env: 'prod',
+        isHideFooter: true, // 如果你需要隐藏三方登录，加上以下代码
+        oauth_callback: location.href,
+        havanaParams: {
+            login: {
+                password: { appEntrance: 'gpt', appName: 'gpt' },
+                mobile: { appEntrance: 'gpt_sms', appName: 'gpt' },
+            },
+            register: {
+                password: { bizEntrance: 'gpt_reg' },
+                mobile: { bizEntrance: 'gpt_mobile' },
+            },
+        },
+        mobileLoginUrl: 'https://account.aliyun.com/login/login',
+        fastLoginCustom: {
+            cssUrl: encodeURIComponent(
+                'https://g.alicdn.com/dawn/aliyun-m-login-improve/1.0.21/css/bazinga_login.css',
+            ),
+            // 如果你需要隐藏三方登录，同时固定初始 tab 为手机号登录，加上以下代码
+            footerComs: [''],
+            forceInitTab: 'mobile_login',
+        },
+    };
+    </script>
+    <script crossorigin="anonymous" src="https://g.alicdn.com/code/lib/react/18.2.0/umd/react.production.min.js" nonce=""></script>
+    <script crossorigin="anonymous" src="https://g.alicdn.com/code/lib/react-dom/18.2.0/umd/react-dom.production.min.js" nonce=""></script>
+    <script crossorigin="anonymous" src="https://g.alicdn.com/dawn/assets-loader/scripts/fast-login.js?tenantName=bazinga" nonce=""></script>
+    <script crossorigin="anonymous" src="https://g.alicdn.com/liveme-console/alice-mind-app/1.0.262/js/main.js" nonce=""></script>
+    <script crossorigin="anonymous" src="https://g.alicdn.com/liveme-console/alice-mind-app/1.0.262/js/havanaLogin.js" nonce=""></script>
+    <script crossorigin="anonymous" nonce="" src="https://cloud-assets.alicdn.com/website.js" crossorigin></script>
+</body>
+
+</html>

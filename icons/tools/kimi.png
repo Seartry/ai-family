@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <script type="module" crossorigin src="//statics.moonshot.cn/kimi-web-seo/assets/polyfills-Ch0G2rbi.js"></script>
+
+    <meta charset="UTF-8" />
+    <!--default-seo-->
+    <title>Kimi.ai - 会推理解析，能深度思考的AI助手</title>
+    <meta
+      name="keywords"
+      content="Kimi,Kimi.ai,MoonshotAI,Moonshot,月之暗面,大语言模型,自然语言处理,人工智能大模型,AI聊天机器人,AI聊天,AI创作,国内大模型公司,AI聊天,AI助手,上下文窗口,context,long,超长"
+    />
+    <meta
+      name="description"
+      content="Kimi 是一个有着超大“内存”的智能助手，可以一口气读完二十万字的小说，还会上网冲浪，快来跟他聊聊吧 | Kimi.ai - Moonshot AI 出品的智能助手"
+    />
+    <!--default-seo-->
+    <link rel="shortcut icon" href="//statics.moonshot.cn/kimi-chat/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Kimi" />
+    <meta name="format-detection" content="telephone=no,email=no" />
+    <meta name="msvalidate.01" content="38E0A3C40C0983D8FED5BD0B59E78653" />
+    <meta name="baidu-site-verification" content="codeva-w8jRQyIVVM" />
+    <meta name="sogou_site_verification" content="ZbupFZEZFQ" />
+    <!--preload-links-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YXD8W70SZP"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+      gtag("config", "G-YXD8W70SZP")
+    </script>
+    <script>
+      ;(function (w, d, s, l, i) {
+        w[l] = w[l] || []
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" })
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : ""
+        j.async = true
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl
+        f.parentNode.insertBefore(j, f)
+      })(window, document, "script", "dataLayer", "GTM-NT26Q3C9")
+    </script>
+    <script>
+      var _hmt = _hmt || []
+      ;(function () {
+        var hm = document.createElement("script")
+        hm.src = "https://hm.baidu.com/hm.js?358cae4815e85d48f7e8ab7f3680a74b"
+        var s = document.getElementsByTagName("script")[0]
+        s.parentNode.insertBefore(hm, s)
+      })()
+    </script>
+    <script>
+      ;(function (win, export_obj) {
+        win["LogAnalyticsObject"] = export_obj
+        if (!win[export_obj]) {
+          var _collect = function () {
+            _collect.q.push(arguments)
+          }
+          _collect.q = _collect.q || []
+          win[export_obj] = _collect
+        }
+        win[export_obj].l = +new Date()
+      })(window, "collectEvent")
+    </script>
+    <script
+      src="https://lf3-data.volccdn.com/obj/data-static/log-sdk/collect/5.0/collect-rangers-v5.1.12.js"
+      async
+    ></script>
+    <script>
+      window.collectEvent("init", {
+        app_id: 20001731,
+        // channel: 'cn',
+        channel_domain: "https://gator.volces.com",
+        ab_channel_domain: "https://tab.volces.com",
+        log: true,
+        autotrack: true,
+        // enable_debug: true,
+        enable_ab_test: true,
+        enable_stay_duration: true,
+      })
+      window.collectEvent("getAllVars", function (allABTestMap) {
+        for (var key in allABTestMap) {
+          window.collectEvent("getVar", key, true, function () {})
+        }
+      })
+      window.collectEvent("start")
+    </script>
+    <script type="module" crossorigin src="//statics.moonshot.cn/kimi-web-seo/assets/index-BlghwHQx.js"></script>
+    <link rel="modulepreload" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/common-OfI9p-js.js">
+    <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/common-B_sDOlJ5.css">
+    <link rel="stylesheet" crossorigin href="//statics.moonshot.cn/kimi-web-seo/assets/index-kM7LcXn4.css">
+  </head>
+  <body>
+    <div id="app"><!--app-html--></div>
+    <script>window.OVERSEA=false</script>
+    <!--app-init-state-->
+    <script src="//statics.moonshot.cn/kimi-web-seo/gt4.js"></script>
+    <script src="//res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js" async></script>
+    <script src="//res.wx.qq.com/open/js/jweixin-1.6.0.js" async></script>
+  </body>
+</html>
