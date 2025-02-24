@@ -12,5 +12,8 @@
   "license": "MIT",
   "devDependencies": {
     "sharp": "^0.32.1"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
   }
-} 
+}

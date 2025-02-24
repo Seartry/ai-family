@@ -1,14 +1,14 @@
 :root {
     --primary-color: #4a90e2;
     --sidebar-width: 160px;
-    --main-width: 580px;
+    --main-width: 600px;  /* 增加主内容区域宽度 */
     --header-height: 60px;
     --border-radius: 6px;
-    --height: 520px;  /* 使用固定高度而不是最小高度 */
+    --height: 580px;  /* 使用固定高度而不是最小高度 */
 }
 
 body {
-    width: 740px;
+    width: 1160px;  /* 增加整体宽度 = sidebar-width + main-width */
     height: var(--height); /* 使用固定高度 */
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
@@ -171,7 +171,7 @@ body {
 }
 
 #searchInput {
-    width: 100%;
+    width: 60%;
     padding: 6px 12px 6px 32px;
     border: 1px solid #e8e8e8;
     border-radius: var(--border-radius);
@@ -187,17 +187,19 @@ body {
 
 .tools-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-    gap: 12px;
+    grid-template-columns: repeat(2, 1fr);  /* 设置为两列 */
+    gap: 10px;  /* 增加间距 */
+    max-width: 190px;
 }
 
 .tool-card {
     background: white;
     border: 1px solid #e8e8e8;
     border-radius: var(--border-radius);
-    padding: 12px;
+    padding: 16px;  /* 增加内边距 */
     cursor: pointer;
     transition: all 0.2s;
+    width: auto;  /* 移除固定宽度，让grid布局控制 */
 }
 
 .tool-card:hover {
@@ -249,9 +251,9 @@ body {
 }
 
 /* 响应式设计 */
-@media (max-width: 480px) {
+@media (max-width: 680px) {
     body {
-        width: 400px;
+        width: 600px;
     }
 
     .categories {
